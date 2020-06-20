@@ -7,10 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myapp abcd';
-  num: number = 2;
-  arr = ["lista1", "lista2", "lista3"];
 
-  add() {
-    this.num = this.num + 1
-  }
 }
