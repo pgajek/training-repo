@@ -1,3 +1,7 @@
 <ul>
-    <li *ngFor='let a of arr'>{{a}} <button (click)='remove(a)'>X</button> </li>
+    <li *ngFor='let a of arr'>
+        {{a}}
+        <button (click)='remove(a)'>X</button>
+    </li>
 </ul>
+<button (click)='add()'>Dodaj</button>
