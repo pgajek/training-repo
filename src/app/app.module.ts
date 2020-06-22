@@ -1,22 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
-import { DummyComponent } from './dummy/dummy.component';
-import { MyListComponent } from './my-list/my-list.component';
-import { SomeComponent } from './some/some.component';
+import { MyListComponent } from './components/my-list/my-list.component';
+import { InputComponent } from './components/input/input.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    DummyComponent,
-    MyListComponent,
-    SomeComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, MyListComponent, InputComponent],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
