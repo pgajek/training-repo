@@ -1,7 +1,7 @@
-<ul>
-    <li *ngFor='let a of arr'>
+<ul class='list'>
+    <li *ngFor='let a of arr' class='listItem'>
         {{a}}
-        <button (click)='remove(a)'>X</button>
+        <button (click)='remove(a)' class='del'>X</button>
     </li>
 </ul>
 <button (click)='add()'>Dodaj</button>
